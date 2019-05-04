@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:2.1.603 AS builder
+FROM mcr.microsoft.com/dotnet/core/sdk:3.0.100-preview4 AS builder
 
 # Install mono
 ENV MONO_VERSION 5.18.0.225
